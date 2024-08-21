@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "CocoaDebugObjc",
-            publicHeadersPath: "include"
+            publicHeadersPath: "Public"
         )
     ]
 )
