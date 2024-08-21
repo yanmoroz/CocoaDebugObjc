@@ -13,7 +13,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "CocoaDebugObjc"
+            name: "CocoaDebugObjc",
+            publicHeadersPath: "include"
         )
     ]
 )
